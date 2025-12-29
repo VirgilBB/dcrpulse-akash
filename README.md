@@ -52,8 +52,8 @@ The deployment uses the following default settings:
 
 1. Deploy using the provided `deploy.yaml`
 2. Wait for initial blockchain sync (may take several hours)
-3. Open the dashboard URL from Akash Console (Leases → URI)
-4. Monitor logs to track sync progress
+3. **Monitor sync progress**: Click the **URI(s)** link in Akash Console (Leases tab) to open the dashboard and view real-time sync status with percentage progress bar
+4. The dashboard will automatically update as your node syncs
 
 ### Watch-Only Wallet Monitoring
 
@@ -62,7 +62,7 @@ You can import an Extended Public Key (xpub) to monitor your Decred wallet witho
 1. Access the dashboard and navigate to **Settings** → **Import Extended Public Key**
 2. Paste your xpub (Decred mainnet xpubs start with `dpub`)
 3. Provide a friendly account name
-4. The wallet will automatically rescan the blockchain to find all historical transactions (typically 5-30 minutes)
+4. The wallet will automatically rescan the blockchain to find all historical transactions 
 
 **Note**: Watch-only wallets can monitor balances and transactions but **cannot spend funds**. This is a security feature that allows you to track your wallet activity without risking your private keys.
 

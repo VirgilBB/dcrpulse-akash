@@ -4,7 +4,6 @@ version: "2.0"
 services:
   dcrpulse:
     # Combined container: runs dcrd + dcrpulse dashboard in ONE container.
-    # This avoids Akash per-service PVC limitations (no shared volume across services).
     image: virgilbb/dcrpulse-combined-akash:v1.8.2
     env:
       - PORT=8080
