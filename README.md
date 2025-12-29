@@ -2,7 +2,7 @@
   <img src="assets/decred-logo.jpg" alt="Decred logo" width="220" />
 </p>
 
-# dcrpulse on Akash
+# dcrpulse GUI Dashboard on Akash
 
 Decred is an autonomous digital currency with a hybrid PoW/PoS consensus system, built to be a superior store of value. Running a full node strengthens the network's decentralization and security. **dcrpulse** makes it easy to deploy your own full node and web dashboard on Akash Network with just a few clicks—no technical expertise required.
 
