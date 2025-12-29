@@ -74,8 +74,9 @@ Compare your node's block height with the network: https://dcrdata.decred.org/
 
 ⚠️ **Important**: The default RPC password is for demonstration only. Please change it in `deploy.yaml` before deploying to production.
 
-## Support
+## Need Help?
 
-For issues with Decred itself, visit the [Decred Community](https://decred.org/community/).
-For Akash deployment issues, visit the [Akash Discord](https://discord.gg/akash).
+- **Issues?** Open an issue in [this repository](https://github.com/VirgilBB/dcrpulse)
+- **Questions?** Join [Akash Discord](https://discord.gg/akash)
+- **Decred Support?** Join [Decred Discord](https://discord.gg/decred)
 
