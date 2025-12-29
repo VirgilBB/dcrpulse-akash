@@ -10,7 +10,7 @@ services:
       - DCRD_RPC_USER=decred
       - DCRD_RPC_PASS=decredpass
       # Optional extra args passed to dcrd (example: --txindex)
-      - DCRD_EXTRA_ARGS=
+      - DCRD_EXTRA_ARGS=--txindex
     expose:
       - port: 8080
         as: 80
@@ -21,7 +21,7 @@ services:
       - port: 9108
         as: 9108
         to:
-          - global: true
+          - global: false
         proto: tcp
     params:
       storage:
@@ -39,7 +39,7 @@ profiles:
           size: 5Gi
         storage:
           - name: dcrd-data
-            size: 120Gi
+            size: 30Gi
             attributes:
               persistent: true
               class: beta3
